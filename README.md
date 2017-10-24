@@ -1,15 +1,21 @@
 # Java
 
 package component;
+
 import javax.microedition.midlet.*;
+
 import com.sun.lwuit.*;
+
 import com.sun.lwuit.events.*;
+
 import com.sun.lwuit.table.TableLayout;
+
 import java.io.IOException;
  
 public class Apple2 extends MIDlet implements ActionListener
 {
-  	Form mainForm;
+  	
+	Form mainForm;
  
   	String [] content = {"$1099", "$1299", "$799", "$399", "$699"};
   	ComboBox combobox;
